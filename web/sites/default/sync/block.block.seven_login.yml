@@ -1,0 +1,22 @@
+uuid: 6393c012-5544-4f03-8c64-02f333071e27
+langcode: uk
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - seven
+_core:
+  default_config_hash: IItlF4SKHgxduIysVQdvirDJ_v3HGuAviOkidAOJYRE
+id: seven_login
+theme: seven
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: Вхід
+  provider: user
+  label_display: visible
+visibility: {  }

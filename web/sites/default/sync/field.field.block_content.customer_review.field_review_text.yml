@@ -1,0 +1,21 @@
+uuid: a560731e-82bc-48b9-a194-667082f5426d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.customer_review
+    - field.storage.block_content.field_review_text
+  module:
+    - text
+id: block_content.customer_review.field_review_text
+field_name: field_review_text
+entity_type: block_content
+bundle: customer_review
+label: 'Поле де заповнюється один відгук клієнта'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

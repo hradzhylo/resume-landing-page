@@ -1,0 +1,125 @@
+/* Murkup for content in blocks in content region */
+
+// Murkup for first block in page. This is block about.
+#block-title-in-the-page {
+  border-bottom: 1px solid $gray-300;
+  display: flex;
+  padding: 5rem 1rem !important;
+
+  // Murkup for text after title
+  .field--name-body {
+    ul {
+      font-weight: 500;
+      font-size: 1.35rem;
+      list-style-type: none;
+      margin-top: 1.375rem;
+      margin-bottom: 3rem;
+      text-transform: uppercase;
+      padding-left: 0;
+
+      li {
+        display: inline-block;
+      }
+    }
+
+    // Murkup for facebook font awesome icon
+    ol {
+      margin-top: 3rem !important;
+      margin-bottom: 0 !important;
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        display: inline-block;
+        margin-right: .5rem;
+
+        a {
+          text-decoration: none;
+
+          i {
+            align-items: center;
+            background-color: $gray-700;
+            border-radius: 50%;
+            color: $white;
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            width: 50px;
+
+            &:hover {
+              background-color: $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Murkup for second block. This is block about therapy
+#block-proterapiu {
+  border-bottom: 1px solid $gray-300;
+  display: flex;
+  padding: 5rem 1rem !important;
+}
+
+// Murkup for third block. This is block for customers
+#block-vidgukiklientivnasaiti {
+  border-bottom: 1px solid $gray-300;
+  display: flex;
+  padding: 5rem 1rem !important;
+}
+
+// Murkup for fourth block. This block for contacts
+#block-kontakti {
+  border-bottom: 1px solid $gray-300;
+  display: flex;
+  padding: 5rem 1rem !important;
+}
+
+// Murkup for media queries.
+@media (min-width: 768px) {
+  #block-title-in-the-page {
+    min-height: 100vh;
+  }
+
+  #block-proterapiu {
+    min-height: 100vh;
+  }
+
+  #block-vidgukiklientivnasaiti {
+    min-height: 100vh;
+  }
+
+  #block-kontakti {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #block-title-in-the-page {
+    padding: 3rem !important;
+  }
+
+  #block-proterapiu {
+    padding: 3rem !important;
+  }
+
+  #block-vidgukiklientivnasaiti {
+    padding: 3rem !important;
+  }
+
+  #block-kontakti {
+    padding: 3rem !important;
+  }
+}
+
+// Murkup for custom div block "my-auto". It's for showing content center of screen.
+.region-content {
+  .block-block-content {
+    .my-auto {
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+  }
+}

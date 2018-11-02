@@ -1,0 +1,105 @@
+taxonomies:
+  tags: {  }
+blocks:
+  -
+    info: 'Про терапію'
+    langcode: uk
+    uuid: 3a084b3a-cd37-4646-9701-9325797930af
+    bundle: about_therapy
+    fields:
+      body:
+        value: "<p>Окрім того, що я є веб-розробником, я користуюся великою частиною свого часу, коли виходить на вулицю. Взимку я є запальним гірським гірським гірським гірським спортсменом та новачком. У теплі місяці тут, в Колорадо, я насолоджуюся гірськими велосипедами, вільним скелелазінням і байдарками.</p>\r\n\r\n<p>Коли я затримуюсь у приміщенні, я стежу за багатьма фантастичними та жанровими фільмами та телевізійними шоу, я прагнучий шеф-кухар, і я проводжу велику частину свого вільного часу, вивчаючи останні досягнення в технології в інтерфейсному світі розробки веб-сайтів.</p>\r\n"
+        summary: ''
+        format: basic_html
+  -
+    info: Контакти
+    langcode: uk
+    uuid: 7856b1e7-041f-4cf3-b21b-9ad38f8c2aa4
+    bundle: contacts
+    fields:
+      body:
+        value: "<p>Психіатрична лікарня&nbsp;</p>\r\n\r\n<p>м. Луцьк, вул. Теремнівська, 98,&nbsp;43008</p>\r\n\r\n<p><a href=\"mailto:vopl1@mail.ru\">vopl1@mail.ru</a></p>\r\n\r\n<p>(0332)774903</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+        summary: ''
+        format: basic_html
+  -
+    info: 'Пенцак Сергій'
+    langcode: uk
+    uuid: 6187637d-fe01-4e87-ae1c-2e287e38f4dc
+    bundle: about
+    fields:
+      body:
+        value: "<h1>Пенцак <span style=\"color:#bd5d38;\">Сергій</span></h1>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Психіатрична лікарня&nbsp;·</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>м. Луцьк, вул. Теремнівська, 98,&nbsp;43008&nbsp;·</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><a href=\"mailto:vopl1@mail.ru\">vopl1@mail.ru</a>&nbsp;·</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>(0332)774903</p>\r\n\t</li>\r\n</ul>\r\n\r\n<p>Специализации: &nbsp;Психиатр, Психотерапевт</p>\r\n\r\n<p>Т.Г.М.У. им. И.Я. Горбачевского , Московский Гештальт Институт</p>\r\n\r\n<p>Опыт работы в клинической психиатрии с 2007 года, в области психологического консультирования и психотерапии с 2008 года</p>\r\n\r\n<p>Текущее место работы: &nbsp;ЦЕНТР ПСИХОЛОГИИ И ПСИХОТЕРАПИИ, ЛУЦК<span class=\"fontawesome-icon-inline\"><i class=\"fab fa-facebook-f fa-2x fa-inverse\"></i></span></p>\r\n\r\n<ol>\r\n\t<li><a href=\"#\"><span class=\"fontawesome-icon-inline\"><i class=\"fab fa-facebook-f fa-2x\"></i>&nbsp;</span></a></li>\r\n</ol>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Відгуки клієнтів на сайті'
+    langcode: uk
+    uuid: bd517665-aa71-4e94-a776-74f648c0e553
+    bundle: customer_review
+    fields:
+      field_review_text:
+        value: "<h3>ЛЕОНТИЙ ВЛАДИМИРОВИЧ</h3>\r\n\r\n<p>Сегодня приобрел ноутбук \"Асус\" и его настройку в розетке на Ярославской. Всем остался очень доволен. Ноутбук выдали очень быстро и настроили специалисты в желтых рубашках, все доступно объяснили по програмам, были очень вежливы. Давно и часто покупаю разную технику в магазине \"Розетка\", но с услугами по настройке столкнулся впервые и остался очень доволен.</p>\r\n"
+        format: full_html
+  -
+    info: 'Текст про мене'
+    langcode: uk
+    uuid: ffd30a16-5d41-4c59-a8b5-da28144b61cb
+    bundle: basic
+    fields:
+      body:
+        value: "<p>Специализации: &nbsp;Психиатр, Психотерапевт</p>\r\n\r\n<p>Т.Г.М.У. им. И.Я. Горбачевского , Московский Гештальт Институт</p>\r\n\r\n<p>Опыт работы в клинической психиатрии с 2007 года, в области психологического консультирования и психотерапии с 2008 года</p>\r\n\r\n<p>Текущее место работы: &nbsp;ЦЕНТР ПСИХОЛОГИИ И ПСИХОТЕРАПИИ, ЛУЦК</p>\r\n"
+        summary: ''
+        format: full_html
+menus:
+  -
+    menu_name: main
+    title: 'Про мене'
+    parent: null
+    uri: 'internal:#block-title-in-the-page'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: uk
+    uuid: c0093217-8acb-4599-9130-3ecf7d40cb6c
+    options: null
+  -
+    menu_name: main
+    title: 'Про терапію'
+    parent: null
+    uri: 'internal:#block-proterapiu'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '1'
+    langcode: uk
+    uuid: 4dd931ac-6b2a-4380-b2ed-64d76000a606
+    options: null
+  -
+    menu_name: main
+    title: 'Відгуки клієнтів'
+    parent: null
+    uri: 'internal:#block-vidgukiklientivnasaiti'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '2'
+    langcode: uk
+    uuid: c1119c10-a47f-44bc-95b1-9bab0872c5fe
+    options: null
+  -
+    menu_name: main
+    title: Контакти
+    parent: null
+    uri: 'internal:#block-kontakti'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '3'
+    langcode: uk
+    uuid: cd6646d1-b185-4d9b-9199-90d9ecdfe402
+    options: null

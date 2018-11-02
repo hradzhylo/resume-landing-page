@@ -1,0 +1,11 @@
+uuid: 2993ce91-e0ac-4f33-b9bb-d1f94135531d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.about_therapy
+id: block_content.about_therapy
+target_entity_type_id: block_content
+target_bundle: about_therapy
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,23 @@
+uuid: cc895c99-e873-402e-856d-cf2706b9302f
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pentsaktheme
+id: sitebranding
+theme: pentsaktheme
+region: navigation
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 525f65e2-c11f-4090-98e9-66e5a61894cf
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.about_therapy
+    - field.field.block_content.about_therapy.body
+  module:
+    - text
+id: block_content.about_therapy.default
+targetEntityType: block_content
+bundle: about_therapy
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

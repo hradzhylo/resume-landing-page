@@ -1,0 +1,22 @@
+uuid: 6f01a902-0b9d-489a-95af-9c4a0820a19b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.contacts
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.contacts.body
+field_name: body
+entity_type: block_content
+bundle: contacts
+label: Текст
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

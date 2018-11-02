@@ -1,0 +1,13 @@
+// Mixins
+// Bootstrap Button Variant
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Mixin for default font in the site
+@mixin body-font {
+  font-family: 'Roboto Condensed', serif;
+}

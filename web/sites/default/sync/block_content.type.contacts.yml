@@ -1,0 +1,8 @@
+uuid: e68d2036-47e6-44f4-97e9-33df6a453333
+langcode: uk
+status: true
+dependencies: {  }
+id: contacts
+label: Контакти
+revision: 0
+description: 'Тип блоку: "Контакти". Тип блоку де створюються контакти.'

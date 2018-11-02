@@ -1,0 +1,162 @@
+// @todo these should be their own CSS files and only included when
+// specific Drupal libraries are used.
+@import "component/alert";
+@import "component/ajax";
+@import "component/field";
+@import "component/file";
+@import "component/filter";
+@import "component/form";
+@import "component/icon";
+@import "component/navbar";
+@import "component/node";
+@import "component/panel";
+@import "component/progress-bar";
+@import "component/table-drag";
+@import "component/tabs";
+@import "component/toolbar";
+
+// jQuery UI style overrides.
+@import "jquery-ui/autocomplete";
+
+ol, ul {
+  padding-left: 1.5em;
+  .popover &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Page header.
+.page-header {
+  margin-top: 0;
+}
+
+// Footer.
+.footer {
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border-top: 1px solid #E5E5E5;
+}
+
+// Paragraphs.
+p:last-child,
+.form-group:last-child,
+.panel:last-child {
+  margin-bottom: 0;
+}
+
+// Help region.
+.region-help {
+  > .glyphicon {
+    font-size: $font-size-large;
+    float: left;
+    margin: -0.05em 0.5em 0 0;
+  }
+  .block {
+    overflow: hidden;
+  }
+}
+
+
+.help-block, .control-group .help-inline {
+  color: $gray-light;
+  font-size: 12px;
+  margin: 5px 0 10px;
+  padding: 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+
+/* Custom overrides */
+
+// Remove paddings from left and right side
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7,
+  .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+  .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3,
+  .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12,
+  .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// Sett default size in browser
+html {
+  font-size: 16px;
+}
+
+// Changing urls
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
+
+// Overrides inverse color in header
+.bg-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+}
+
+// Overrides bootstrap markup in navbar
+.navbar {
+  border: none;
+  margin-bottom: 0;
+}
+
+// Change murkup in navbar-header
+.navbar-header {
+
+  // Change font size of name site
+  .name {
+    font-size: 1.25rem;
+  }
+
+  // Change border color of button
+  .navbar-toggle {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+
+    // Change lines in button
+    .icon-bar {
+      background-color: rgba(255,255,255,.5);
+    }
+  }
+
+  // apply transparent color in inverse color button
+  .navbar-toggle:hover {
+    background-color: transparent;
+  }
+}
+
+// Override background-color in navbar-inverse when url is active
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: transparent;
+}
+
+// Override space between urls in navbar
+.navbar-nav {
+  li {
+    a {
+      line-height: 25px;
+    }
+  }
+}
+
+// Overrides bootstrap markup in navbar-collapse
+// Not showing border
+.navbar-collapse {
+  border-top: none;
+  box-shadow: none;
+}
+
+// Take away margin top from body
+body.navbar-is-fixed-top {
+  margin-top: 0;
+}

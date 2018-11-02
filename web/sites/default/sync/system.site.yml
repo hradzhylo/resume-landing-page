@@ -1,0 +1,14 @@
+uuid: 53334a30-75de-4907-9143-0e051df62e73
+name: 'Пенцак Сергій'
+mail: hradzhylo.volodymyr@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: uk
+default_langcode: uk
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

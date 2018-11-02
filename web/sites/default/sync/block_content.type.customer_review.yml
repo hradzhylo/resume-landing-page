@@ -1,0 +1,8 @@
+uuid: 55fef329-ad19-4575-ad4e-c856527da8b0
+langcode: uk
+status: true
+dependencies: {  }
+id: customer_review
+label: 'Відгуки клієнтів'
+revision: 0
+description: 'Тип блоку: "Відгуки клієнтів". Тип блоку де клієнти залишають свої відгуки.'

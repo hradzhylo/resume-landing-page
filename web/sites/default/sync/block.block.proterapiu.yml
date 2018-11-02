@@ -1,0 +1,25 @@
+uuid: 089910f1-fc71-4a92-af7d-faf58965625f
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:about_therapy:3a084b3a-cd37-4646-9701-9325797930af'
+  module:
+    - block_content
+  theme:
+    - pentsaktheme
+id: proterapiu
+theme: pentsaktheme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:3a084b3a-cd37-4646-9701-9325797930af'
+settings:
+  id: 'block_content:3a084b3a-cd37-4646-9701-9325797930af'
+  label: 'Про терапію'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

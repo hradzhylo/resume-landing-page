@@ -1,0 +1,25 @@
+uuid: fb94f21d-d103-4f97-a97a-127f88a44167
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:about:6187637d-fe01-4e87-ae1c-2e287e38f4dc'
+  module:
+    - block_content
+  theme:
+    - pentsaktheme
+id: title_in_the_page
+theme: pentsaktheme
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:6187637d-fe01-4e87-ae1c-2e287e38f4dc'
+settings:
+  id: 'block_content:6187637d-fe01-4e87-ae1c-2e287e38f4dc'
+  label: 'Пенцак Сергій'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

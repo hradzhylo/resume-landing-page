@@ -1,0 +1,23 @@
+uuid: 1c35eeef-800c-4be0-8d98-052e617998a3
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.customer_review
+    - field.field.block_content.customer_review.field_review_text
+  module:
+    - text
+id: block_content.customer_review.default
+targetEntityType: block_content
+bundle: customer_review
+mode: default
+content:
+  field_review_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

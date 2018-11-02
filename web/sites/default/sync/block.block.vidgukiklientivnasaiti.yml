@@ -1,0 +1,25 @@
+uuid: a2c3d06d-9a48-41a2-b6f9-431639ddb287
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:customer_review:bd517665-aa71-4e94-a776-74f648c0e553'
+  module:
+    - block_content
+  theme:
+    - pentsaktheme
+id: vidgukiklientivnasaiti
+theme: pentsaktheme
+region: content
+weight: 1
+provider: null
+plugin: 'block_content:bd517665-aa71-4e94-a776-74f648c0e553'
+settings:
+  id: 'block_content:bd517665-aa71-4e94-a776-74f648c0e553'
+  label: 'Відгуки клієнтів'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 76bd3076-5e08-4f3b-aa4e-e3908523d34d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.about
+    - field.field.block_content.about.body
+  module:
+    - text
+id: block_content.about.default
+targetEntityType: block_content
+bundle: about
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,27 @@
+cdn_provider: ''
+_core:
+  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://pentsak.loc/themes/custom/pentsaktheme/favicon.ico'
+  use_default: false
+schemas:
+  bootstrap: 8000
+  pentsaktheme: 8000
+fluid_container: 1
+table_responsive: '-1'
+table: ''
+navbar_position: fixed-top
+navbar_inverse: 1
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: false
+  node_user_picture: true
+logo:
+  path: 'public://profile_0.jpg'
+  url: ''
+  use_default: false
+image_shape: img-circle
+langcode: uk

@@ -1,0 +1,25 @@
+uuid: ce5e191e-b6ba-46da-abc4-56c449f3bee3
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:contacts:7856b1e7-041f-4cf3-b21b-9ad38f8c2aa4'
+  module:
+    - block_content
+  theme:
+    - pentsaktheme
+id: kontakti
+theme: pentsaktheme
+region: content
+weight: 2
+provider: null
+plugin: 'block_content:7856b1e7-041f-4cf3-b21b-9ad38f8c2aa4'
+settings:
+  id: 'block_content:7856b1e7-041f-4cf3-b21b-9ad38f8c2aa4'
+  label: Контакти
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

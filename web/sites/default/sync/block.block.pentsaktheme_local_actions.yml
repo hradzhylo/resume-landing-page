@@ -1,0 +1,20 @@
+uuid: b557eb91-d86b-43c7-bb8c-751eb658fd3b
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - pentsaktheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: pentsaktheme_local_actions
+theme: pentsaktheme
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  provider: core
+  label_display: '0'
+visibility: {  }

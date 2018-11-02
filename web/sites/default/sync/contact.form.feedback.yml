@@ -1,0 +1,14 @@
+uuid: 9f8e7a66-27ab-4d35-acda-d9cb8121f4b9
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Зворотній зв’язок веб-сайту'
+recipients:
+  - hradzhylo.volodymyr@gmail.com
+reply: ''
+weight: 0
+message: 'Ваше повідомлення було надіслано.'
+redirect: ''

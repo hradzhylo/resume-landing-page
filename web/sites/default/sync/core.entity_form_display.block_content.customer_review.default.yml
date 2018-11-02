@@ -1,0 +1,38 @@
+uuid: 9a36e8a6-388a-4788-ae40-710a8f125ae8
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.customer_review
+    - field.field.block_content.customer_review.field_review_text
+  module:
+    - text
+id: block_content.customer_review.default
+targetEntityType: block_content
+bundle: customer_review
+mode: default
+content:
+  field_review_text:
+    weight: 28
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

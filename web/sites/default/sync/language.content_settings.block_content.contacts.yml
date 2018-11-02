@@ -1,0 +1,11 @@
+uuid: 65fb772b-2205-4463-b3f1-a09c8e763420
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.contacts
+id: block_content.contacts
+target_entity_type_id: block_content
+target_bundle: contacts
+default_langcode: site_default
+language_alterable: false

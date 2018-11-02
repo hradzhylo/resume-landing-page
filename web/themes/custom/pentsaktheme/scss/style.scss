@@ -1,0 +1,24 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Includes custom styling for this theme
+// Include theme variables
+@import "pentsaktheme/variables";
+
+// Include theme mixins
+@import "pentsaktheme/mixins";
+
+// Include global styling
+@import "pentsaktheme/global";
+
+// Include navigation styling
+@import "pentsaktheme/nav";
+
+// Include block content styling
+@import "pentsaktheme/block-block-content-item";

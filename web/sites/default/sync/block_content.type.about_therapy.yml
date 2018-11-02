@@ -1,0 +1,8 @@
+uuid: ff7c2fd9-21bb-44af-b001-45bba9f594f3
+langcode: uk
+status: true
+dependencies: {  }
+id: about_therapy
+label: 'Про терапію'
+revision: 1
+description: 'Тип блоку: "Про терапію". Тип блоку де створюється блок  опису про терапію.'

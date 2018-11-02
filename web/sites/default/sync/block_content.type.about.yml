@@ -1,0 +1,8 @@
+uuid: 6073443f-4f11-4624-ba14-f3f09e976bac
+langcode: uk
+status: true
+dependencies: {  }
+id: about
+label: 'Про мене'
+revision: 1
+description: 'Тип блоку: "Про мене". Створення блоку на сайті з інформацією про мене.'

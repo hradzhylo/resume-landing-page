@@ -1,0 +1,11 @@
+uuid: 7a653c79-6b26-424c-8187-f24670e5a9be
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.customer_review
+id: block_content.customer_review
+target_entity_type_id: block_content
+target_bundle: customer_review
+default_langcode: site_default
+language_alterable: false
